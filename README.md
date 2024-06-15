@@ -157,5 +157,6 @@ Enter the following into your terminal
 
 **After a reboot the monitor should switch to the correct RGB values upon login**
 
+_____________________________________________________________________________________
 
-
+# Basic but Important Linux Commands
