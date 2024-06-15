@@ -318,3 +318,43 @@ Now we will theme the Bootloader and make it presentable
 choose the theme that you like most and apply
 
 _____________________________________________________________________________________
+
+
+# Grub Bootloader
+
+The Grub bootloader is likely used if you are dual booting your system, you can add and remove entries, we'll go over how to add an entry thats missing in the next steps.
+
+## activating os-prober and update-grub script
+
+Open the grub config in your Text editor of choice: 
+
+`kate /etc/default/grub`
+uncomment "GRUB_DISABLE_OS_PROBER=false" and save the file
+
+Create a file in the path "/usr/sbin/" this will be a shell script to update grub with
+
+`cd /usr/sbin/`
+
+`touch update-grub`
+
+open the file with your text editor of choice:
+
+`kate update-grub`
+
+paste the following text and save the file
+    
+    #!/bin/sh
+    set -e
+    exec grub-mkconfig -o /boot/grub/grub.cfg "$@"
+
+afterwards execute these two commands: 
+
+    sudo chown root:root /usr/sbin/update-grub &&
+    sudo chmod 755 /usr/sbin/update-grub
+
+Now you should be able to run the command `update-grub` to update your grub config
+
+If we now want to add Windows to our Grub bootloader for example, we would run: 
+    
+    sudo os-prober &&
+    update-grub
