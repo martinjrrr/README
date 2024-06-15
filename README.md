@@ -35,11 +35,10 @@ ________________________________________________________________________________
 
 - [6 Extras](6-extras)
   - [6.1 Spotify Daemon and Spotify in your terminal](61-spotify-daemon-and-terminal-app)
-  - [6.2 CAVA Visualizer and Config pasting](62-cava)
-  - [6.3 Radeon Fan Control](63-radeonfancontrol)
-  - [6.4 OPENRGB RGB Software](64-openrgb)
-  - [6.5 Firefox about:config Tweaks](65-about)
-  - [6.6 UBLOCK Youtube Shorts Block List](66-ublock)
+  - [6.2 Radeon Fan Control](63-radeonfancontrol)
+  - [6.3 OPENRGB RGB Software](64-openrgb)
+  - [6.4 Firefox about:config Tweaks](65-about)
+  - [6.5 UBLOCK Youtube Shorts Block List](66-ublock)
  
 _____________________________________________________________________________________
 
@@ -364,3 +363,46 @@ ________________________________________________________________________________
 # Extras
 
 In the following we'll take a look at optional, nice to have but not necessary packages and how to install them
+
+## Spotify Daemon and Spotify in your terminal
+
+Follow the instructions below starting with installing the necessary packages using yay
+
+`spotify-tui`
+
+When spotify-tui is installed you will need to run it by writing `spt` into your terminal of choice
+
+spt will then ask you for your spotify `Client ID`and `Client Secret` which you'll have to get from the spotify developer dashboard for which there are many guides on how to setup an application and get your ID + Secret respectively
+
+**Once you've entered both the Client ID and Client secret all should be working and you'll see a User Interface pop up**
+
+now to use the UI which we've installed we'll need a daemon to stream Spotify to, for that we'll use the spotifyd-daemon
+
+`spotifyd` is the package name, download it using yay or refer to the projects github to get more information
+
+now copy the spotifyd.conf from my github repo enter your username and password into the file and make a folder for the config to be in
+
+`mkdir /home/user/.config/spotifyd`
+
+Then copy the file from downloads to the new directory
+
+`cd ~/Downloads/`
+
+`cp spotify.conf /home/user/.config/spotifyd`
+
+Now type the following lines into the terminal you want to use for the UI to live in:
+
+`spotifyd`
+
+`spt`
+
+If the daemon gives you any issues like playing two streams at once type the following into the terminal to restart the daemon
+
+`killall spotifyd`
+
+`spotifyd`
+
+![image](https://github.com/martinjrrr/Linux.dots/assets/91160845/f5a55a60-db9d-4672-a057-19e71f9e24ff)
+
+In addition to spotifyd and spotify-tui you can install cava
+a visualizer, copy my config into ~/.config/cava/ to apply the design shown in the screenshot above
