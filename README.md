@@ -33,7 +33,7 @@ ________________________________________________________________________________
   - [5.1 activating os-prober and update-grub script](https://github.com/martinjrrr/README/blob/main/README.md#activating-os-prober-and-update-grub-script)
  
 
-- [6 Extras](6-extras)
+- [6 Extras](https://github.com/martinjrrr/README/blob/main/README.md#extras)
   - [6.1 Spotify Daemon and Spotify in your terminal](https://github.com/martinjrrr/README/blob/main/README.md#spotify-daemon-and-spotify-in-your-terminal)
   - [6.2 Radeon Fan Control](63-radeonfancontrol)
   - [6.3 OPENRGB RGB Software](64-openrgb)
