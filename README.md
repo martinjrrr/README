@@ -287,3 +287,5 @@ In this chapter we'll take a look at making your system nicer to look at and les
 
 You could also use the shown config, Download the *firestart.zip* and select the HTML file as your Firefox homepage
 If you want to modify my given example navigate to the Startpage generator and feed the *ls-backup.json* into the site
+
+## Making your Bash Terminal look aesthetic
