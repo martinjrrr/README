@@ -1,5 +1,8 @@
 # README
 
+ ![image](https://github.com/martinjrrr/Linux.dots/assets/91160845/53385f31-888a-4382-b733-c601e667a98d)
+
+
 # Table of Contents
 
 - [0 Linux](#0-linux)
