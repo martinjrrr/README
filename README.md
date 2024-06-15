@@ -67,7 +67,7 @@ From time to time you can also clear the orphaned packages from your system by r
 
 _____________________________________________________________________________________
 
-## 
+## Package Managers
 
 
 
