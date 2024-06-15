@@ -427,4 +427,27 @@ After finishing the Download you'll need to run the following commands in the te
 
 **Now Radeon-profile should be working and showing modules like fan control**
 
-## 
+## OPENRGB RGB Software
+
+OpenRGB is an open source utility to control all your RGB using one software solution
+
+`openrgb` / `openrgb-git`
+
+`i2c-tools`
+
+Before launching we'll need to execute a few commands
+
+     $ sudo modprobe i2c-dev
+
+     $ sudo groupadd --system i2c
+
+     $ sudo usermod $USER -aG i2c
+ 
+       sudo touch /etc/modules-load.d/i2c.conf &&
+
+       sudo sh -c 'echo "i2c-dev" >> /etc/modules-load.d/i2c.conf'
+
+![image](https://github.com/martinjrrr/Linux.dots/assets/91160845/211dd1fd-05cb-4ef1-a02e-c1a611ae3856)
+
+
+**Now OpenRGB should also show RAM Modules**
