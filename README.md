@@ -220,3 +220,57 @@ use `ls -t | tail -1` to get the oldest file in the directory
 
 ## makedir command
 
+How to use the `make` directory command
+
+`mkdir [OPTION] [DIRECTORY]` this is the commands syntax
+
+`mkdir /home/user/Documents/exampledir` to make a new directory called 'exampledir' in the Documents folder of our Linux system
+
+_____________________________________________________________________________________
+
+
+an example of a file tree and the command that creates it:
+
+`makedir -p /home/user/Documents/folder1,folder2/subfolder1,subfolder2/`
+
+     Documents/
+     ├──folder1
+     |   ├──subfolder1
+     |   └──subfolder2
+     |
+     └──folder2
+         ├──subfolder1
+         └──subfolder2
+         
+
+_____________________________________________________________________________________
+
+
+an example of a more complicated file tree and the command that creates it:
+
+`mkdir -p Music/{Jazz/Blues,Folk,Disco,Rock/{Gothic,Punk,Progressive},Classical/Baroque/Early}`
+
+    Music/
+    ├──Classical
+    |   └──Baroque
+    |       └──Early
+    ├──Disco
+    ├──Folk
+    ├──Jazz
+    |   └──Blues
+    └──Rock
+        ├──Gothic
+        ├──Progressive
+        └──Punk
+     
+_____________________________________________________________________________________
+
+
+
+`sudo makedir` to make a directory in a folder that needs super user permissions
+
+`sudo chown -R user /home/user/Documents/exampledir/*` is what we'll use if we want to take ownership of the folder exampledir and all sub files and folders
+
+`sudo chown -R user:user /home/user` if any of the user directories are owned by root
+
+_____________________________________________________________________________________
