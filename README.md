@@ -406,3 +406,25 @@ If the daemon gives you any issues like playing two streams at once type the fol
 
 In addition to spotifyd and spotify-tui you can install cava
 a visualizer, copy my config into ~/.config/cava/ to apply the design shown in the screenshot above
+
+## Radeon Fan Control
+
+All of these are to be installed using the yay package manager or the guide on installing AUR packages above
+
+`mesa-git` FOSS GPU Drivers
+
+`radeon-profile-git` Radeon Overclocking and Fan Control utility
+
+`radeon-profile-daemon-git` The needed daemon to run the Previous software
+
+After finishing the Download you'll need to run the following commands in the terminal
+
+    systemctl enable radeon-profile-daemon.service &&
+    systemctl start radeon-profile-daemon.service
+
+![image](https://github.com/martinjrrr/Linux.dots/assets/91160845/f0a78723-c402-460a-b140-86470acc19e4)
+
+
+**Now Radeon-profile should be working and showing modules like fan control**
+
+## 
