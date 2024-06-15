@@ -19,7 +19,7 @@ ________________________________________________________________________________
   - [2.3 Applying the Kernel Parameter](https://github.com/martinjrrr/README/blob/main/README.md#applying-the-kernel-parameter)
 
 - [3 Basic Linux Commands](https://github.com/martinjrrr/README/blob/main/README.md#basic-but-important-linux-commands)
-  - [3.1 ls - List Command](#31-ls---list-command)
+  - [3.1 ls - List Command](https://github.com/martinjrrr/README/blob/main/README.md#ls---list-command)
   - [3.2 more ls commands](https://github.com/martinjrrr/README/blob/main/README.md#more-ls-commands-and-their-flags)
   - [3.3 mkdir - Make Directory Command](#32-mkdir---make-directory-command)
 
