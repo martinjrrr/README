@@ -53,9 +53,18 @@ In the following `README.md` I'm going to explain how to setup KDE Arch and conf
 
 If anyone but myself uses this Repository for information I will reserve myself the right to not be held accountable for potentially bricking / breaking your systems or installs you have been warned!
 
+_____________________________________________________________________________________
+
+# Arch Linux and taking care of your install 
 
 
+You should update your system at least once a week to prevent any issues from arising as the OS is bleeding edge and lives off of updating it regularly
 
+Use either the `yay` or `sudo pacman -Syu` command to update your entire system and all packages except flatpaks
+
+To update your flatpaks you'd need to put the command: `sudo flatpak update` into the terminal or update them from the software store you used to download them from, on KDE that store would most likely be 'Discover'
+
+From time to time you can also clear the orphaned packages from your system by running `pacman -Qtdq | pacman -Rns` as the root user
 
 
 
