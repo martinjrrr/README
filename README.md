@@ -15,7 +15,7 @@ ________________________________________________________________________________
 
 - [2 AMD's Display Issues](https://github.com/martinjrrr/README/blob/main/README.md#amds-display-issues)
   - [2.1 Editing the EDID File](https://github.com/martinjrrr/README/blob/main/README.md#editing-the-edid-file)
-  - [2.2 Adding the Kernel Parameter](#22-adding-the-kernel-parameter)
+  - [2.2 Adding the Kernel Parameter](https://github.com/martinjrrr/README/blob/main/README.md#adding-the-kernel-parameter)
   - [2.3 Applying the Kernel Parameter](#23-applying-the-kernel-parameter)
 
 - [3 Basic Linux Commands](#3-basic-linux-commands)
