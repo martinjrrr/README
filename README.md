@@ -36,6 +36,9 @@ ________________________________________________________________________________
   - [5.5 Firefox about:config Tweaks](55-about)
   - [5.6 UBLOCK Youtube Shorts Block List](56-ublock)
  
+- [6 Grub Bootloader](6-grub)
+  - [6.1 activating os-prober and update-grub script](61-osgrub)
+ 
 
 _____________________________________________________________________________________
 
