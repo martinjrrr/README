@@ -274,3 +274,7 @@ ________________________________________________________________________________
 `sudo chown -R user:user /home/user` if any of the user directories are owned by root
 
 _____________________________________________________________________________________
+
+# Aesthetics
+
+In this chapter we'll take a look at making your system nicer to look at and less of a strain on the eyes
