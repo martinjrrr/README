@@ -29,7 +29,7 @@ ________________________________________________________________________________
   - [4.3 Making Your Bootloader Look Good](https://github.com/martinjrrr/README/blob/main/README.md#making-your-bootloader-look-good)
 
 
-- [5 Grub Bootloader](5-grub)  
+- [5 Grub Bootloader](https://github.com/martinjrrr/README/blob/main/README.md#grub-bootloader)
   - [5.1 activating os-prober and update-grub script](51-osgrub)
  
 
