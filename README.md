@@ -38,7 +38,7 @@ ________________________________________________________________________________
   - [6.2 Radeon Fan Control](https://github.com/martinjrrr/README/blob/main/README.md#radeon-fan-control)
   - [6.3 OPENRGB RGB Software](https://github.com/martinjrrr/README/blob/main/README.md#openrgb-rgb-software)
   - [6.4 Firefox about:config Tweaks](https://github.com/martinjrrr/README/blob/main/README.md#firefox-aboutconfig-tweaks)
-  - [6.5 UBLOCK Youtube Shorts Block List](66-ublock)
+  - [6.5 UBLOCK Youtube Shorts Block List](https://github.com/martinjrrr/README/blob/main/README.md#ublock-origin-youtube-shorts-blocklist)
  
 _____________________________________________________________________________________
 
