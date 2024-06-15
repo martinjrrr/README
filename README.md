@@ -488,6 +488,29 @@ add the line `drivers-alsa` and save the file
 **Start / Restart Minecraft and it should have a working sound engine**
 
 
+## Nice to have Programs
+
+`kate` -> Text Editor
+
+`vscodium` -> Opensource VSCode binaries
+
+`thunderbird` -> Mozillas Mail Client
+
+`kgamma5` -> X11 Gamma control for KDE Systems
+
+`ani-cli` -> Watch and download anime from your terminal
+
+`mangal` -> Read and download manga from your terminal
+
+`speedtest-cli` -> cli to test your connection speeds from your terminal 
+
+`Discover` + `packagekit-qt5` -> KDE's own software store
+
+`Obsidian` -> Notetaking app with community integration
+
+`clam AV` -> Antivirus software
+
+
 ## UBLOCK Origin Youtube Shorts Blocklist
 
 Add the following text via. copy and paste to your uBlock Origin filter list to get rid of pesky Youtube Shorts
