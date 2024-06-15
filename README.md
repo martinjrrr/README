@@ -10,7 +10,7 @@ ________________________________________________________________________________
 - [0 What is this?](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
   - [0.1 Arch Linux and Taking Care of Your Install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
 
-- [1 Package Managers](#1-packages)
+- [1 Package Managers](https://github.com/martinjrrr/README/blob/main/README.md#package-managers)
   - [1.1 Installing Packages Manually](#12-installing-packages-manually)
 
 - [2 AMD's Display Issues](#2-amds-display-issues)
