@@ -13,7 +13,7 @@ ________________________________________________________________________________
 - [1 Package Managers](https://github.com/martinjrrr/README/blob/main/README.md#package-managers)
   - [1.1 Installing Packages Manually](https://github.com/martinjrrr/README/blob/main/README.md#installing-packages-manually)
 
-- [2 AMD's Display Issues](#2-amds-display-issues)
+- [2 AMD's Display Issues](https://github.com/martinjrrr/README/blob/main/README.md#amds-display-issues)
   - [2.1 Editing the EDID File](#21-editing-the-edid-file)
   - [2.2 Adding the Kernel Parameter](#22-adding-the-kernel-parameter)
   - [2.3 Applying the Kernel Parameter](#23-applying-the-kernel-parameter)
