@@ -94,16 +94,62 @@ to improve the build time.
 
 _____________________________________________________________________________________
 
-## AMD's Display Issues
+# AMD's Display Issues
+
+One of the main issues I've encountered on my system is that my HDMI Monitor does not use RGB 0-255, this makes the greys washed out and consuming content on the system unbearable to me, luckily there is a fix by editing the monitors EDID
+
+## Editing the EDID file 
+To follow this guide you can either download the `modified_edid.bin` and save it to `~/Downloads/` which may only work for my monitor or follow the step by step guide on how to edit your own EDID file
+
+Open a terminal:
+
+`find /sys/devices/pci*/ -name edid` to find the EDID used by your monitor 
+
+Output should look something like this:
+
+`/sys/devices/pci0000:00/0000:00:03.1/0000:2b:00.0/0000:2c:00.0/0000:2d:00.0/drm/card1/card1-DP-1/edid`
+
+You'll need to choose the connector of your monitor, for me it is card1-DP-1
+
+Next I'll cd into the directory where my EDID is located and copy it:
+
+`cd /sys/devices/pci0000:00/0000:00:03.1/0000:2b:00.0/0000:2c:00.0/0000:2d:00.0/drm/card1/card1-DP-1`
+
+`cp edid ~/Downloads/`
+
+Next you'll need to download wxEDID:
+
+flatpak install https://dl.tingping.se/flatpak/wxedid.flatpakref
+
+open the edid file which is now located in the `~/Downloads/` directory using wxEDID
+
+edit it to disable YCbCr support:
 
 
+    SPF: Supported features -> change value of vsig_format to 0b00
+ 
+    CHD: CEA-861 header -> change the value of YCbCr420 and YCbCr444 to 0
+ 
+    VSD: Vendor Specific Data Block -> change the value of DC_Y444 to 0
+ 
 
+Afterwards save the EDID binary and rename it to "modified_edid.bin" and save it to ~/Downloads/
 
+## Adding the Kernel Parameter
 
+Open a Terminal: 
 
+    $ cd ~/Downloads/
 
+    $ sudo cp modified_edid.bin /usr/lib/firmware/edid/
 
+    $ sudo mkdir /usr/lib/firmware/edid/ if the directory does not exist
 
+    open the file /etc/default/grub with your preferred text editor the text: drm.edid_firmware=edid/modified_edid.bin
+
+    after **GRUB_CMDLINE_LINUX_DEFAULT=** and **GRUB_CMDLINE_LINUX=** then save
+
+## Applying the Kernel Parameter
 
 
 
