@@ -358,3 +358,9 @@ If we now want to add Windows to our Grub bootloader for example, we would run:
     
     sudo os-prober &&
     update-grub
+
+_____________________________________________________________________________________
+
+# Extras
+
+In the following we'll take a look at optional, nice to have but not necessary packages and how to install them
