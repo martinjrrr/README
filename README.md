@@ -8,7 +8,7 @@ ________________________________________________________________________________
 # Table of Contents
 
 - [0 Linux](https://github.com/martinjrrr/README/blob/main/README.md#linux)
-  - [0.1 Arch Linux and Taking Care of Your Install]([#01-arch-linux-and-taking-care-of-your-install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install))
+  - [0.1 Arch Linux and Taking Care of Your Install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
 
 - [1 Packages](#1-packages)
   - [1.1 Package Managers](#11-package-managers)
