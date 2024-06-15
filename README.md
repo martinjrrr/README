@@ -20,7 +20,8 @@ ________________________________________________________________________________
 
 - [3 Basic Linux Commands](https://github.com/martinjrrr/README/blob/main/README.md#basic-but-important-linux-commands)
   - [3.1 ls - List Command](#31-ls---list-command)
-  - [3.2 mkdir - Make Directory Command](#32-mkdir---make-directory-command)
+  - [3.2 more ls commands](https://github.com/martinjrrr/README/blob/main/README.md#more-ls-commands-and-their-flags)
+  - [3.3 mkdir - Make Directory Command](#32-mkdir---make-directory-command)
 
 - [4 Aesthetics](#4-aesthetics)
   - [4.1 Making Your Browser Startpage Aesthetic](#41-making-your-browser-startpage-aesthetic)
