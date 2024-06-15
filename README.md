@@ -25,7 +25,7 @@ ________________________________________________________________________________
 
 - [4 Aesthetics](https://github.com/martinjrrr/README/blob/main/README.md#aesthetics)
   - [4.1 Making Your Browser Startpage Aesthetic](https://github.com/martinjrrr/README/blob/main/README.md#aesthetic-firefox-startpage)
-  - [4.2 Making Your Bash Terminal Look Good](#42-making-your-bash-terminal-look-good)
+  - [4.2 Making Your Bash Terminal Look Good](https://github.com/martinjrrr/README/blob/main/README.md#making-your-bash-terminal-look-aesthetic)
   - [4.3 Making Your Bootloader Look Good](#43-making-your-bootloader-look-good)
 
 
