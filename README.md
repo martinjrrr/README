@@ -36,7 +36,7 @@ ________________________________________________________________________________
 - [6 Extras](https://github.com/martinjrrr/README/blob/main/README.md#extras)
   - [6.1 Spotify Daemon and Spotify in your terminal](https://github.com/martinjrrr/README/blob/main/README.md#spotify-daemon-and-spotify-in-your-terminal)
   - [6.2 Radeon Fan Control](https://github.com/martinjrrr/README/blob/main/README.md#radeon-fan-control)
-  - [6.3 OPENRGB RGB Software](64-openrgb)
+  - [6.3 OPENRGB RGB Software](https://github.com/martinjrrr/README/blob/main/README.md#openrgb-rgb-software)
   - [6.4 Firefox about:config Tweaks](65-about)
   - [6.5 UBLOCK Youtube Shorts Block List](66-ublock)
  
