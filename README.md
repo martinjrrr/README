@@ -52,7 +52,6 @@ In the following `README.md` I'm going to explain how to setup KDE Arch and conf
 
 If anyone but myself uses this Repository for information I will reserve myself the right to not be held accountable for potentially bricking / breaking your systems or installs you have been warned!
 
-_____________________________________________________________________________________
 
 ## Arch Linux and taking care of your install 
 
@@ -69,7 +68,14 @@ ________________________________________________________________________________
 
 ## Package Managers
 
+We'll be using Yay as an AUR Helper and Pacman as our package manager
 
+## Installing packages Manually
+
+
+
+
+_____________________________________________________________________________________
 
 
 
