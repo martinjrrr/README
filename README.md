@@ -34,7 +34,7 @@ ________________________________________________________________________________
  
 
 - [6 Extras](6-extras)
-  - [6.1 Spotify Daemon and Spotify in your terminal](61-spotify-daemon-and-terminal-app)
+  - [6.1 Spotify Daemon and Spotify in your terminal](https://github.com/martinjrrr/README/blob/main/README.md#spotify-daemon-and-spotify-in-your-terminal)
   - [6.2 Radeon Fan Control](63-radeonfancontrol)
   - [6.3 OPENRGB RGB Software](64-openrgb)
   - [6.4 Firefox about:config Tweaks](65-about)
