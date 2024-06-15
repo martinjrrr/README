@@ -145,9 +145,9 @@ Open a Terminal:
 
     $ sudo mkdir /usr/lib/firmware/edid/ if the directory does not exist
 
-    open the file /etc/default/grub with your preferred text editor the text: drm.edid_firmware=edid/modified_edid.bin
+open the file /etc/default/grub with your preferred text editor and copy:
 
-    after **GRUB_CMDLINE_LINUX_DEFAULT=** and **GRUB_CMDLINE_LINUX=** then save
+`drm.edid_firmware=edid/modified_edid.bin` after `GRUB_CMDLINE_LINUX_DEFAULT=` and `GRUB_CMDLINE_LINUX=` then save
 
 ## Applying the Kernel Parameter
 
