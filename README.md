@@ -151,7 +151,11 @@ Open a Terminal:
 
 ## Applying the Kernel Parameter
 
+Enter the following into your terminal
 
+`sudo grub-mkconfig -o /boot/grub/grub.cfg` in the terminal to apply the kernel patch
+
+**After a reboot the monitor should switch to the correct RGB values upon login**
 
 
 
