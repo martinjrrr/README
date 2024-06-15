@@ -160,3 +160,62 @@ Enter the following into your terminal
 _____________________________________________________________________________________
 
 # Basic but Important Linux Commands
+
+## ls - List Command
+
+[Guide by Redhat on basic navigation](https://www.redhat.com/sysadmin/navigating-linux-filesystem)
+
+[More specific guide for using ls](https://www.howtogeek.com/448446/how-to-use-the-ls-command-on-linux/)
+
+[Guide on how to use the tree command with examples](https://linuxhandbook.com/tree-command/)
+
+`cd /home/user/Documents/` to navigate into the Documents folder located in the users home directory
+
+`cd ~` to navigate back to your home directory
+
+
+| ls -flag | what they are for |
+| --- | --- |
+| `ls` | to list the current directories contents |
+| `ls -<nr of rows>` | to change the number of rows shown when listing the directory |
+| `ls <directory name>` | to list a certain directory |
+| `ls <characters>*` | to list any files with the selected string of characters | 
+| `ls <character>?` | to list any files with the selected single character |
+| `ls *.png` | to list any files with the selected file format, in this case the .png format |
+| `ls --hide=*.png` | to hide all files with the given file extension |
+| `ls -l` | is the so called: "long listing" option which gives you more details on each file |
+
+The long listing lists a lot of information at once, in this case it is the file type, the user, the group, the file size, date the file was last edited, with month, date, exact time to the minute and year listed respectfully.
+There are different types of files, depending on the first character it could mean:
+
+The very first character represents the file type:
+
+    -: A regular file.
+    b: A block special file.
+    c: A character special file.
+    d: A directory.
+    l: A symbolic link.
+    n: A network file.
+    p: A named pipe.
+    s: A socket.
+
+### More LS Commands and their flags:
+
+| ls - flag | what they are for |
+| --- | --- |
+| `ls -l -h` | using the -h flag ls displays the filesize in human-readable sizes, converting kilobites to mb |
+| `ls -l -a` | using the -a flag all files including hidden files will be shown |
+| `ls -l -A` | using the -a flag almost all files will be shown, omitting . and .. entries from your list, resulting in an overall more legible window |
+| `ls -l -R` | using the -R (recursive) flag lists all files in each subdirectory |
+| `ls -n` | using the -n flag lists the user ID instead of the user name |
+| `ls -X -1` | using the -X -1 flags lists the files by extension type in alphabetical order, directories will be listed first |
+| `ls -l -h -S` | using the flags -l (list) -h (human-readable) and the -S flag will sort the files by size. |
+|`ls -l -t` | using the flag -t will sort files by when they were last modified |
+| `ls -l -h -S -r` | using the -r flag will reverse any sort orders |
+ 
+use `ls -t | head -1` to get the newest file in the directory
+
+use `ls -t | tail -1` to get the oldest file in the directory 
+
+## makedir command
+
