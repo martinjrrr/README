@@ -28,16 +28,20 @@ ________________________________________________________________________________
   - [4.2 Making Your Bash Terminal Look Good](#42-making-your-bash-terminal-look-good)
   - [4.3 Making Your Bootloader Look Good](#43-making-your-bootloader-look-good)
 
-- [5 Extras](5-extras)
-  - [5.1 Spotify Daemon and Spotify in your terminal](51-spotify-daemon-and-terminal-app)
-  - [5.2 CAVA Visualizer and Config pasting](52-cava)
-  - [5.3 Radeon Fan Control](53-radeonfancontrol)
-  - [5.4 OPENRGB RGB Software](54-openrgb)
-  - [5.5 Firefox about:config Tweaks](55-about)
-  - [5.6 UBLOCK Youtube Shorts Block List](56-ublock)
+
+- [5 Grub Bootloader](5-grub)  
+  - [5.1 activating os-prober and update-grub script](51-osgrub)
  
-- [6 Grub Bootloader](6-grub)
-  - [6.1 activating os-prober and update-grub script](61-osgrub)
+
+- [6 Extras](6-extras)
+  - [6.1 Spotify Daemon and Spotify in your terminal](61-spotify-daemon-and-terminal-app)
+  - [6.2 CAVA Visualizer and Config pasting](62-cava)
+  - [6.3 Radeon Fan Control](63-radeonfancontrol)
+  - [6.4 OPENRGB RGB Software](64-openrgb)
+  - [6.5 Firefox about:config Tweaks](65-about)
+  - [6.6 UBLOCK Youtube Shorts Block List](66-ublock)
+ 
+
  
 
 _____________________________________________________________________________________
