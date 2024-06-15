@@ -30,7 +30,7 @@ ________________________________________________________________________________
 
 
 - [5 Grub Bootloader](https://github.com/martinjrrr/README/blob/main/README.md#grub-bootloader)
-  - [5.1 activating os-prober and update-grub script](51-osgrub)
+  - [5.1 activating os-prober and update-grub script](https://github.com/martinjrrr/README/blob/main/README.md#activating-os-prober-and-update-grub-script)
  
 
 - [6 Extras](6-extras)
