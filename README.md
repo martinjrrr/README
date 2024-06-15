@@ -289,3 +289,32 @@ You could also use the shown config, Download the *firestart.zip* and select the
 If you want to modify my given example navigate to the Startpage generator and feed the *ls-backup.json* into the site
 
 ## Making your Bash Terminal look aesthetic
+
+We are now going to Setup an equivalent to OhMyZSH to make our terminal look better
+
+    git clone https://github.com/christitustech/mybash
+
+    cd mybash
+
+    ./setup.sh
+
+We'll download the Jetbrains Mono Nerdfont to our system so that we can set it in the terminal:
+
+    cd ~/Downloads &&
+    curl -L -o JetBrainsMono.zip "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip"
+
+![image](https://github.com/martinjrrr/Linux.dots/assets/91160845/03247de1-ff2f-49fe-8947-ad50fa507f81)
+
+## Making Your Bootloader Look Good
+
+Now we will theme the Bootloader and make it presentable 
+
+    $ git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
+
+    $ cd Top-5-Bootloader-Themes
+
+      sudo ./install.sh
+
+choose the theme that you like most and apply
+
+_____________________________________________________________________________________
