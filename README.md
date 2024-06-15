@@ -2,6 +2,8 @@
 
  ![image](https://github.com/martinjrrr/Linux.dots/assets/91160845/53385f31-888a-4382-b733-c601e667a98d)
 
+_____________________________________________________________________________________
+
 
 # Table of Contents
 
@@ -33,3 +35,7 @@
   - [5.4 OPENRGB RGB Software](54-openrgb)
   - [5.5 Firefox about:config Tweaks](55-about)
   - [5.6 UBLOCK Youtube Shorts Block List](56-ublock)
+ 
+
+_____________________________________________________________________________________
+
