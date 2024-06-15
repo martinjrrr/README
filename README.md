@@ -7,7 +7,7 @@ ________________________________________________________________________________
 
 # Table of Contents
 
-- [0 Linux](https://github.com/martinjrrr/README/blob/main/README.md#linux)
+- [0 What is this?](https://github.com/martinjrrr/README/blob/main/README.md#linux)
   - [0.1 Arch Linux and Taking Care of Your Install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
 
 - [1 Packages](#1-packages)
@@ -46,7 +46,7 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________
 
-# Linux 
+## What is this?
 
 
 In the following `README.md` I'm going to explain how to setup KDE Arch and configure it so it just works, for this setup I'm choosing KDE Plasma as the DE because it is the best balance between extreme customizability and ease of use.
@@ -55,7 +55,7 @@ If anyone but myself uses this Repository for information I will reserve myself 
 
 _____________________________________________________________________________________
 
-# Arch Linux and taking care of your install 
+## Arch Linux and taking care of your install 
 
 
 You should update your system at least once a week to prevent any issues from arising as the OS is bleeding edge and lives off of updating it regularly
