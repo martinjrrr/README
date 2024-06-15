@@ -39,6 +39,7 @@ ________________________________________________________________________________
   - [6.3 OPENRGB RGB Software](https://github.com/martinjrrr/README/blob/main/README.md#openrgb-rgb-software)
   - [6.4 Firefox about:config Tweaks](https://github.com/martinjrrr/README/blob/main/README.md#firefox-aboutconfig-tweaks)
   - [6.5 UBLOCK Youtube Shorts Block List](https://github.com/martinjrrr/README/blob/main/README.md#ublock-origin-youtube-shorts-blocklist)
+  - [6.6 Fix Minecraft not Connecting to the Sound engine](https:github.com)
  
 _____________________________________________________________________________________
 
@@ -407,6 +408,7 @@ If the daemon gives you any issues like playing two streams at once type the fol
 In addition to spotifyd and spotify-tui you can install cava
 a visualizer, copy my config into ~/.config/cava/ to apply the design shown in the screenshot above
 
+
 ## Radeon Fan Control
 
 All of these are to be installed using the yay package manager or the guide on installing AUR packages above
@@ -426,6 +428,7 @@ After finishing the Download you'll need to run the following commands in the te
 
 
 **Now Radeon-profile should be working and showing modules like fan control**
+
 
 ## OPENRGB RGB Software
 
@@ -451,6 +454,7 @@ Before launching we'll need to execute a few commands
 
 **Now OpenRGB should also show RAM Modules**
 
+
 ## Firefox about:config Tweaks
 
 head to about:config in your address bar for all of these
@@ -464,6 +468,23 @@ Disable translate option:
     browser.translations.automaticallyPopup 
     browser.translations.enable
     browser.translations.panelShown
+
+## FIX Minecraft not connecting to the sound engine
+
+You'll need to add the line `drivers-alsa` to `/etc/openal/alsoft.conf`
+
+`sudo mkdir /etc/openal/`  if the directory does not exist
+
+`alsoft.conf` if the file does not exist to create it in your ~/Downloads/ directory
+
+add the line `drivers-alsa` and save the file
+
+`cd ~/Downloads/`
+
+`sudo cp alsoft.conf /etc/openal/`
+
+**Start / Restart Minecraft and it should have a working sound engine**
+
 
 ## UBLOCK Origin Youtube Shorts Blocklist
 
