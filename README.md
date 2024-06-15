@@ -10,9 +10,8 @@ ________________________________________________________________________________
 - [0 What is this?](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
   - [0.1 Arch Linux and Taking Care of Your Install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
 
-- [1 Packages](#1-packages)
-  - [1.1 Package Managers](#11-package-managers)
-  - [1.2 Installing Packages Manually](#12-installing-packages-manually)
+- [1 Package Managers](#1-packages)
+  - [1.1 Installing Packages Manually](#12-installing-packages-manually)
 
 - [2 AMD's Display Issues](#2-amds-display-issues)
   - [2.1 Editing the EDID File](#21-editing-the-edid-file)
@@ -68,7 +67,7 @@ From time to time you can also clear the orphaned packages from your system by r
 
 _____________________________________________________________________________________
 
-
+## 
 
 
 
