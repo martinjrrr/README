@@ -40,12 +40,9 @@ ________________________________________________________________________________
   - [6.5 Firefox about:config Tweaks](65-about)
   - [6.6 UBLOCK Youtube Shorts Block List](66-ublock)
  
-
- 
-
 _____________________________________________________________________________________
 
-## What is this?
+# What is this?
 
 
 In the following `README.md` I'm going to explain how to setup KDE Arch and configure it so it just works, for this setup I'm choosing KDE Plasma as the DE because it is the best balance between extreme customizability and ease of use.
@@ -66,7 +63,7 @@ From time to time you can also clear the orphaned packages from your system by r
 
 _____________________________________________________________________________________
 
-## Package Managers
+# Package Managers
 
 We'll be using Yay as an AUR Helper and Pacman as our package manager
 
@@ -95,11 +92,9 @@ and edit the line which says `#MAKEFLAGS="-j4"`
 enter the amount of threads you want to use for building packages instead of 4
 to improve the build time.
 
-
-
 _____________________________________________________________________________________
 
-
+## AMD's Display Issues
 
 
 
