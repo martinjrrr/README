@@ -23,7 +23,7 @@ ________________________________________________________________________________
   - [3.2 more ls commands](https://github.com/martinjrrr/README/blob/main/README.md#more-ls-commands-and-their-flags)
   - [3.3 mkdir - Make Directory Command](https://github.com/martinjrrr/README/blob/main/README.md#makedir-command)
 
-- [4 Aesthetics](#4-aesthetics)
+- [4 Aesthetics](https://github.com/martinjrrr/README/blob/main/README.md#aesthetics)
   - [4.1 Making Your Browser Startpage Aesthetic](#41-making-your-browser-startpage-aesthetic)
   - [4.2 Making Your Bash Terminal Look Good](#42-making-your-bash-terminal-look-good)
   - [4.3 Making Your Bootloader Look Good](#43-making-your-bootloader-look-good)
