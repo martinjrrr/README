@@ -11,7 +11,7 @@ ________________________________________________________________________________
   - [0.1 Arch Linux and Taking Care of Your Install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
 
 - [1 Package Managers](https://github.com/martinjrrr/README/blob/main/README.md#package-managers)
-  - [1.1 Installing Packages Manually](#12-installing-packages-manually)
+  - [1.1 Installing Packages Manually](https://github.com/martinjrrr/README/blob/main/README.md#installing-packages-manually)
 
 - [2 AMD's Display Issues](#2-amds-display-issues)
   - [2.1 Editing the EDID File](#21-editing-the-edid-file)
@@ -72,6 +72,28 @@ We'll be using Yay as an AUR Helper and Pacman as our package manager
 
 ## Installing packages Manually
 
+To install an AUR package without a package manager you first grab the AUR url of the package you want to install, in this example we'll be taking the brave-nightly package
+
+`git clone https://aur.archlinux.org/brave-nightly-bin.git`
+
+`cd brave-nightly-bin`
+
+`kate PKGBUILD`
+
+After reading and verifying that the packages are secure enter:
+
+`makepkg` or to finish the install right away enter `makepkg -sri`
+
+`ls`
+
+sudo pacman -U brave-nightly-bin-xx.x.x-x-x86_64.pkg.tar.zst
+
+agree to the prompt asking to install with `Y`
+
+to build packages faster open `/etc/makepkg.conf` 
+and edit the line which says `#MAKEFLAGS="-j4"`
+enter the amount of threads you want to use for building packages instead of 4
+to improve the build time.
 
 
 
