@@ -11,7 +11,7 @@ ________________________________________________________________________________
   - [0.1 Arch Linux and Taking Care of Your Install](https://github.com/martinjrrr/README/blob/main/README.md#arch-linux-and-taking-care-of-your-install)
 
 - [1 Package Managers](https://github.com/martinjrrr/README/blob/main/README.md#package-managers)
-  - [1.1 Installing AUR Packages Manually](https://github.com/martinjrrr/README/blob/main/README.md#installing-packages-manually)
+  - [1.1 Installing AUR Packages Manually](https://github.com/martinjrrr/README/blob/main/README.md#installing-aur-packages-manually)
 
 - [2 AMD's Display Issues](https://github.com/martinjrrr/README/blob/main/README.md#amds-display-issues)
   - [2.1 Editing the EDID File](https://github.com/martinjrrr/README/blob/main/README.md#editing-the-edid-file)
