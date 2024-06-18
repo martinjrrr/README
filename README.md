@@ -276,6 +276,16 @@ an example of a more complicated file tree and the command that creates it:
 
 `sudo chown -R user:user /home/user` if any of the user directories are owned by root
 
+## mv - move and rename 
+
+With the mv command you can move and rename files
+the basic syntax is:
+    
+    mv [OPTION]... [-T] SOURCE DEST
+    mv [OPTION]... SOURCE... DIRECTORY
+    mv [OPTION]... -t DIRECTORY SOURCE...
+
+
 _____________________________________________________________________________________
 
 # Aesthetics
