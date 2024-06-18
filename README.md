@@ -34,20 +34,17 @@ ________________________________________________________________________________
 - [5 Grub Bootloader](https://github.com/martinjrrr/README/blob/main/README.md#grub-bootloader)
   - [5.1 activating os-prober and update-grub script](https://github.com/martinjrrr/README/blob/main/README.md#activating-os-prober-and-update-grub-script)
  
-
-- [6 Extras](https://github.com/martinjrrr/README/blob/main/README.md#extras)
-  - [6.1 Spotify Daemon and Spotify in your terminal](https://github.com/martinjrrr/README/blob/main/README.md#spotify-daemon-and-spotify-in-your-terminal)
-  - [6.2 Radeon Fan Control](https://github.com/martinjrrr/README/blob/main/README.md#radeon-fan-control)
-  - [6.3 OPENRGB RGB Software](https://github.com/martinjrrr/README/blob/main/README.md#openrgb-rgb-software)
-  - [6.4 Firefox about:config Tweaks](https://github.com/martinjrrr/README/blob/main/README.md#firefox-aboutconfig-tweaks)
-  - [6.5 Fix Minecraft not Connecting to the Sound engine](https://github.com/martinjrrr/README/blob/main/README.md#fix-minecraft-not-connecting-to-the-sound-engine)
-  - [6.6 Nice to have programs](https://github.com/martinjrrr/README/blob/main/README.md#nice-to-have-programs)
-  - [6.7 UBLOCK Youtube Shorts Block List](https://github.com/martinjrrr/README/blob/main/README.md#ublock-origin-youtube-shorts-blocklist)
-  - 
-- [7 Drives]()
-  - [7.1 Mounting an exfat formatted ssd]()
+- [6 Drives]()
+  - [6.1 Mounting an exfat formatted ssd]()
  
- 
+- [7 Extras](https://github.com/martinjrrr/README/blob/main/README.md#extras)
+  - [7.1 Spotify Daemon and Spotify in your terminal](https://github.com/martinjrrr/README/blob/main/README.md#spotify-daemon-and-spotify-in-your-terminal)
+  - [7.2 Radeon Fan Control](https://github.com/martinjrrr/README/blob/main/README.md#radeon-fan-control)
+  - [7.3 OPENRGB RGB Software](https://github.com/martinjrrr/README/blob/main/README.md#openrgb-rgb-software)
+  - [7.4 Firefox about:config Tweaks](https://github.com/martinjrrr/README/blob/main/README.md#firefox-aboutconfig-tweaks)
+  - [7.5 Fix Minecraft not Connecting to the Sound engine](https://github.com/martinjrrr/README/blob/main/README.md#fix-minecraft-not-connecting-to-the-sound-engine)
+  - [7.6 Nice to have programs](https://github.com/martinjrrr/README/blob/main/README.md#nice-to-have-programs)
+  - [7.7 UBLOCK Youtube Shorts Block List](https://github.com/martinjrrr/README/blob/main/README.md#ublock-origin-youtube-shorts-blocklist)
  
 _____________________________________________________________________________________
 
