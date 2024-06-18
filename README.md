@@ -627,7 +627,7 @@ Determine the UUID by using `lsblk -f`
 
 ![image](https://github.com/martinjrrr/README/assets/91160845/b0df77f2-c0cb-4d03-a515-db26ae41e4ea)
 
-set the mountpoint specified earlier
+set the mountpoint, in my case it is `/mnt/mydrive`
 
 set the correct file format, in this case exfat
 
