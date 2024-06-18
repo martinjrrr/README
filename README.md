@@ -622,7 +622,7 @@ You'll need to follow the syntax:
 
 Determine the UUID by using `lsblk -f`
 
-![image](https://github.com/martinjrrr/README/assets/91160845/128ebc73-78b9-4d0e-8a9a-c2778db80ac3)
+![image](https://github.com/martinjrrr/README/assets/91160845/b0df77f2-c0cb-4d03-a515-db26ae41e4ea)
 
 set the mountpoint specified earlier
 
