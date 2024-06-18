@@ -292,6 +292,13 @@ To move a file you go:
 if you want to rename the file in the same swoop you go: 
 
 `mv ~/Dokumente/Playgrd/test.fil ~/Dokumente/Exampledir/test.fil1`
+
+renaming a file alone would be: 
+
+    cd ~/Dokumente/exampledir
+    mv test.file test.fil1
+
+
 _____________________________________________________________________________________
 
 # Aesthetics
