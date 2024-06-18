@@ -43,6 +43,10 @@ ________________________________________________________________________________
   - [6.5 Fix Minecraft not Connecting to the Sound engine](https://github.com/martinjrrr/README/blob/main/README.md#fix-minecraft-not-connecting-to-the-sound-engine)
   - [6.6 Nice to have programs](https://github.com/martinjrrr/README/blob/main/README.md#nice-to-have-programs)
   - [6.7 UBLOCK Youtube Shorts Block List](https://github.com/martinjrrr/README/blob/main/README.md#ublock-origin-youtube-shorts-blocklist)
+  - 
+- [7 Drives]()
+  - [7.1 Mounting an exfat formatted ssd]()
+ 
  
  
 _____________________________________________________________________________________
