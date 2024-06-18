@@ -592,5 +592,38 @@ Add the following text via. copy and paste to your uBlock Origin filter list to 
     youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
 
+# Drives
 
+This chapter is about everything surrounding drives and their issues
 
+## Mounting an exfat disk
+
+Create a mount location:
+
+`sudo mkdir /mnt/mydrive`
+
+next find out the drives device name:
+
+`lsblk` 
+
+insert the device name at the specified spot:
+
+`sudo mount /dev/<insertdevicename> /mnt/mydrive
+
+## mount an exfat disk on boot with write permissions
+
+To mount an exfat formatted disk on boot with write permissions you'll need to edit the fstab file located in 
+
+`<insert text editor> /etc/fstab`
+
+You'll need to follow the syntax:
+
+`<insert UUID> </insert/mountpoint> <fileformat> defaults,uid=<insert uid>,gid=<insertgid>`
+
+Determine the UUID by using `lsblk -f`
+
+set the mountpoint specified earlier
+
+set the correct file format, in this case exfat
+
+`use the `id` command to get the uid and gid and insert them at the specified spots
