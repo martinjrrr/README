@@ -34,8 +34,9 @@ ________________________________________________________________________________
 - [5 Grub Bootloader](https://github.com/martinjrrr/README/blob/main/README.md#grub-bootloader)
   - [5.1 activating os-prober and update-grub script](https://github.com/martinjrrr/README/blob/main/README.md#activating-os-prober-and-update-grub-script)
  
-- [6 Drives]()
-  - [6.1 Mounting an exfat formatted ssd]()
+- [6 Drives](https://github.com/martinjrrr/README/blob/main/README.md#drives)
+  - [6.1 Mounting an exfat formatted ssd](https://github.com/martinjrrr/README/blob/main/README.md#mounting-an-exfat-disk-once-with-read-only-permission)
+  - [6.2 Mounting an exfat formatted ssd on boot with write permissions](https://github.com/martinjrrr/README/blob/main/README.md#mount-an-exfat-disk-on-boot-with-write-permissions)
  
 - [7 Extras](https://github.com/martinjrrr/README/blob/main/README.md#extras)
   - [7.1 Spotify Daemon and Spotify in your terminal](https://github.com/martinjrrr/README/blob/main/README.md#spotify-daemon-and-spotify-in-your-terminal)
