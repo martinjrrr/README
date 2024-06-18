@@ -604,7 +604,10 @@ Create a mount location:
 
 next find out the drives device name:
 
-`lsblk` 
+`lsblk -f`
+
+![image](https://github.com/martinjrrr/README/assets/91160845/ba9f0e49-4f24-45ff-8782-db01216e30b0)
+
 
 insert the device name at the specified spot:
 
