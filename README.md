@@ -596,7 +596,7 @@ Add the following text via. copy and paste to your uBlock Origin filter list to 
 
 This chapter is about everything surrounding drives and their issues
 
-## Mounting an exfat disk
+## Mounting an exfat disk once with read only permission
 
 Create a mount location:
 
@@ -608,7 +608,7 @@ next find out the drives device name:
 
 insert the device name at the specified spot:
 
-`sudo mount /dev/<insertdevicename> /mnt/mydrive
+`sudo mount /dev/<insertdevicename> /mnt/mydrive`
 
 ## mount an exfat disk on boot with write permissions
 
@@ -622,8 +622,12 @@ You'll need to follow the syntax:
 
 Determine the UUID by using `lsblk -f`
 
+![image](https://github.com/martinjrrr/README/assets/91160845/128ebc73-78b9-4d0e-8a9a-c2778db80ac3)
+
 set the mountpoint specified earlier
 
 set the correct file format, in this case exfat
 
-`use the `id` command to get the uid and gid and insert them at the specified spots
+use the `id` command to get the `uid` and `gid` and insert them at the specified spots
+
+save the file and reboot
