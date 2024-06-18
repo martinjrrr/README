@@ -299,6 +299,13 @@ renaming a file alone would be:
     cd ~/Dokumente/exampledir
     mv test.file test.fil1
 
+# man - syntax help
+
+If you ever need help with a command just use the man command:
+
+`man ls` 
+
+the command will explain the syntax of the following command in a helpful manner
 
 _____________________________________________________________________________________
 
