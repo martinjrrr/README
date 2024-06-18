@@ -396,7 +396,50 @@ If we now want to add Windows to our Grub bootloader for example, we would run:
     
     sudo os-prober &&
     update-grub
+_____________________________________________________________________________________
 
+# Drives
+
+This chapter is about everything surrounding drives and their issues
+
+## Mounting an exfat disk once with read only permission
+
+Create a mount location:
+
+`sudo mkdir /mnt/mydrive`
+
+next find out the drives device name:
+
+`lsblk -f`
+
+![image](https://github.com/martinjrrr/README/assets/91160845/ba9f0e49-4f24-45ff-8782-db01216e30b0)
+
+
+insert the device name at the specified spot:
+
+`sudo mount /dev/<insertdevicename> /mnt/mydrive`
+
+## mount an exfat disk on boot with write permissions
+
+To mount an exfat formatted disk on boot with write permissions you'll need to edit the fstab file located in 
+
+`<insert text editor> /etc/fstab`
+
+You'll need to follow the syntax:
+
+`<insert UUID> </insert/mountpoint> <fileformat> defaults,uid=<insert uid>,gid=<insertgid>`
+
+Determine the UUID by using `lsblk -f`
+
+![image](https://github.com/martinjrrr/README/assets/91160845/b0df77f2-c0cb-4d03-a515-db26ae41e4ea)
+
+set the mountpoint, in my case it is `/mnt/mydrive`
+
+set the correct file format, in this case exfat
+
+use the `id` command to get the `uid` and `gid` and insert them at the specified spots
+
+save the file and reboot
 _____________________________________________________________________________________
 
 # Extras
@@ -592,45 +635,4 @@ Add the following text via. copy and paste to your uBlock Origin filter list to 
     youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)
 
 
-# Drives
 
-This chapter is about everything surrounding drives and their issues
-
-## Mounting an exfat disk once with read only permission
-
-Create a mount location:
-
-`sudo mkdir /mnt/mydrive`
-
-next find out the drives device name:
-
-`lsblk -f`
-
-![image](https://github.com/martinjrrr/README/assets/91160845/ba9f0e49-4f24-45ff-8782-db01216e30b0)
-
-
-insert the device name at the specified spot:
-
-`sudo mount /dev/<insertdevicename> /mnt/mydrive`
-
-## mount an exfat disk on boot with write permissions
-
-To mount an exfat formatted disk on boot with write permissions you'll need to edit the fstab file located in 
-
-`<insert text editor> /etc/fstab`
-
-You'll need to follow the syntax:
-
-`<insert UUID> </insert/mountpoint> <fileformat> defaults,uid=<insert uid>,gid=<insertgid>`
-
-Determine the UUID by using `lsblk -f`
-
-![image](https://github.com/martinjrrr/README/assets/91160845/b0df77f2-c0cb-4d03-a515-db26ae41e4ea)
-
-set the mountpoint, in my case it is `/mnt/mydrive`
-
-set the correct file format, in this case exfat
-
-use the `id` command to get the `uid` and `gid` and insert them at the specified spots
-
-save the file and reboot
