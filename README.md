@@ -285,7 +285,9 @@ the basic syntax is:
     mv [OPTION]... SOURCE... DIRECTORY
     mv [OPTION]... -t DIRECTORY SOURCE...
 
+To move a file you go: 
 
+`mv ~/Dokumente/Playgrd/test.fil ~/Dokumente/Exampledir`
 _____________________________________________________________________________________
 
 # Aesthetics
